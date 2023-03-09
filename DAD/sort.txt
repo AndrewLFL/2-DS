@@ -1,0 +1,63 @@
+ORDENAÇÃO
+ https://www.youtube.com/@pgdinamica
+
+-> bubblesort
+
+EXTREMA DIREITA
+
+A cada loop o maior número é empurrado para a full direita.
+
+for(j=0;j<v.length-1;j++)
+{
+for(i=0;i<v.length-1;i++)
+{
+     if(v[i] > v[i+1])
+     {
+     aux = v[i];
+     v[i+1]=aux;
+     trocou=1;
+     }
+}
+}
+
+
+-> selectionsort
+
+EXTREMA ESQUERDA
+A cada loop o menor número é colocado para a full esquerda
+
+
+for(i=0;i<v.length-1;i++) 
+{
+    menorindex=i;
+
+// loop para pegar o index do menor número
+ 
+    for(j=i;j<v.length;j++)
+    {
+    if(menorindex>j)
+    {
+    menorindex=j;
+    }
+    }
+
+// if para controle
+
+    if(i!=menorindex)
+    {
+     aux = v[i];
+     v[i]=v[menorindex];
+     v[menorindex]=aux;
+    }
+}
+
+-> insertionsort
+
+
+
+
+fds
+quicksort
+
+mergesort
+

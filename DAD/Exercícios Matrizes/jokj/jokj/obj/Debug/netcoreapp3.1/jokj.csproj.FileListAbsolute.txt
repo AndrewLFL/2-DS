@@ -1,0 +1,14 @@
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.exe
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.deps.json
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.runtimeconfig.json
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.runtimeconfig.dev.json
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.dll
+C:\Users\aluno\source\repos\jokj\jokj\bin\Debug\netcoreapp3.1\jokj.pdb
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.AssemblyInfoInputs.cache
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.AssemblyInfo.cs
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.dll
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.pdb
+C:\Users\aluno\source\repos\jokj\jokj\obj\Debug\netcoreapp3.1\jokj.genruntimeconfig.cache

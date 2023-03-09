@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Simples</title>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+        }
+
+        table
+        {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+        text-align: center;
+        border-color: black;  
+        }
+    
+        div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        caption{
+        font-weight: bold;
+        padding-bottom: 10px;
+        }
+
+        thead{
+        background-color: rgb(240, 240, 240);  
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <table border="1">
+            <caption>
+               Notas - 2DSD
+            </caption>
+            <thead>
+                <tr>
+                    <th colspan="2" scope="colgroup">Dados do Aluno</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">RA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marise</td>
+                    <td>1254687</td>
+                    <td>5,9</td>
+                </tr>
+                <tr>
+                    <td>Roffato</td>
+                    <td>5412035</td>
+                    <td>3,2</td>
+                </tr>
+                <tr>
+                    <td>Carolina</td>
+                    <td>5658985</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

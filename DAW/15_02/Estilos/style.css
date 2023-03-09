@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body
+{
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td,th
+{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table
+        {
+            border-collapse: collapse;
+        }
+
+        div#container /* Faz a tabela ser responsiva */
+        {
+            overflow-x: scroll;
+        }
+        caption
+        {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 20px;
+        }
