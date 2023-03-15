@@ -1,0 +1,28 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int[] v1 = new int[10];
+        int[] v2 = new int[10];
+        int sum;
+        for(int i=0;i<10;i++)
+        {
+        Console.WriteLine ("Digite os números do primeiro vetor: ");
+        v1[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        
+        for(int i=0;i<10;i++)
+        {
+        Console.WriteLine ("Digite os números do segundo vetor: ");
+        v2[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        
+        for(int i=0;i<10;i++)
+        {
+        sum= v1[i]+v2[i];
+        Console.WriteLine (sum + "\n");
+        }
+    }
+}

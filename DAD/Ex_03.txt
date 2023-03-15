@@ -1,0 +1,34 @@
+using System;
+
+namespace fds
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] v = new int[10];
+            int razao, aux;
+            Console.WriteLine("Digite um numero e uma razao:");
+            aux = Convert.ToInt32(Console.ReadLine());
+            razao = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 0) 
+                {
+                    v[i] = aux; 
+                    continue;
+                        
+                }
+                v[i] = aux + razao;
+                aux = v[i];
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(v[i] + "\n");
+            }
+
+        }
+    }
+}
