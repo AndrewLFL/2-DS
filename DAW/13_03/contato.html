@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+    body{
+    background-color: #14101d;
+    color: #f4eef2;
+    margin: 0 auto;
+    font-family: 'Labrada', serif;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 1200px;
+    padding: 10px;
+    }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+width: 170px;
+}
+
+li{
+display: inline-block;
+margin: 20px;
+font-family: "Labrada",serif;
+font-weight: 600;
+font-size:19px;
+}
+
+a{
+color: #5a969d;
+}
+        
+        section{
+            display: flex;
+            width: 70vw;
+        }
+        .rigth-div{
+            width: 50vw;
+            padding-top: 100px;
+        }
+        .left-div{
+            width: 50vw;
+            padding-top: 100px;
+        }
+        .home-icon{
+            width: 40px;
+        }
+        video{
+            width: 400px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="home-icon.png" class="home-icon" alt="House">
+        </a>
+        <ul>
+        <a href="#"><li>Sobre</li></a>  
+        <a href="#"><li>Produtos</li></a> 
+        <a href="#"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
+    <section> 
+        <div class="left-div">
+        <video muted autoplay loop >
+            <source src="chocolate-71747.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div class="rigth-div">
+            <img  src="mapa.png" alt="mapa" usemap="#mapa">
+            <map name="mapa">
+                <area shape="rect" coords="516,129,572,205" href="https://pt.wikipedia.org/wiki/Cear%C3%A1_Sporting_Club" alt="ceara" target="_blank">
+                <area shape="rect" coords="344,280,412,375" href="https://www.google.com/maps/search/witch's+house/@3.2418627,-113.3261393,3z" alt="sexshop" target="_blank">
+                <area shape="rect" coords="433,379,501,461" href="https://www.palmeiras.com.br/" alt="vaileão" target="_blank">
+            </map>
+        </div>
+    </section>
+</body>
+</html>
