@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Formulário</h1>
+<form action="get">
+    <p>
+        <label for="nome">Nome:<br></label>
+        <input type="text" id="nome" size="30" placeholder="Digite seu nome" required readonly>
+    </p>
+    <p>
+        <label for="data">Data de nascimento<br></label>
+        <input type="date" id="data" required>
+    </p>
+    <p>
+        <label for="idade">Idade:<br></label>
+        <input type="number" name="idade" id="idade" min="16" step="1" required disabled>
+    </p>
+    <p>
+        <label for="m">Masculino</label>
+        <input type="radio" id="m" name="sexo" checked> <br>
+        <label for="f">Feminino</label>
+        <input type="radio" id="f" name="sexo">
+    </p>
+    <p>
+        <label for="telefone">Telefone: <br></label>
+        <input type="tel" id="telefone" maxlength="11">
+    </p>
+    <p>
+        <label for="email">Email: <br></label>
+        <input type="email" id="email" required >
+    </p>
+    <p>
+        <label for="senha">Senha: <br></label>
+        <input type="password" id="senha" required minlength="6" maxlength="10">
+    </p>
+    <p>
+        <label for="grau">Grau: <br></label>
+        <input type="range" id="grau" min="0" max="100" value="50">
+    </p>
+    <p>
+        <label for="est">Estado: </label>
+        <select name="estado" id="est">
+
+            <option value="" selected>--- Escolha ---</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Periodo de Aula</legend>
+            <input type="checkbox" name="manha" id="manha">
+            <label for="manha">Manhã</label><br>
+            <input type="checkbox" name="tarde" id="tarde" checked>
+            <label for="tarde">Tarde</label><br>
+            <input type="checkbox" name="noite" id="noite"> 
+            <label for="noite">Noite</label><br>            
+        </fieldset>
+    </p>
+    <p>
+        <label for="cor">Cor:</label>
+        <input type="color" name="cor" id="cor">
+    </p>
+    <p>
+        <input type="submit" id="enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    <p>
+        <label for="hora">Horario: </label>
+        <input type="time" name="hora" id="hora" value="16:20">
+    </p>
+    <p>
+        <label for="img">Img:</label>
+    </p>
+</form>
+</body>
+</html>
