@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros Recursos</title>
+    <style>
+    body{
+        background-color: #e5ddcb;
+        color: #4d4143;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    summary{
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    #lista{
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <details>
+        <summary style="color:#4d4143">CADASTRO</summary>
+
+<!--Atributos Globais-->
+    <!--Página editavel-->
+    <p contenteditable="true">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit inventore maiores debitis quidem laborum ad, odit dolor quia aperiam reprehenderit libero illum architecto doloribus. Quisquam dolor reprehenderit sint non debitis.
+    </p>
+    <form action="get">
+    <p dir="rtl">
+        <label for="nome">Nome: <br></label>
+            <!--Acesse pelo teclado (alt+letra)-->
+        <input type="text" id="nome" accesskey="l" tabindex="1">
+    </p>  
+    <p>
+        <label for="senha">Senha: <br></label>
+            <!--Acesse pelo teclado (alt+letra)-->
+        <input type="text" id="senha" accesskey="t" tabindex="2">
+    </p>           
+<dl id="lista">
+    <dt>Bolo</dt>
+    <dd>cenoura blalalal</dd>
+    <dt>Brigadeiro</dt>
+    <dd>leite condensado fdsdsfsdfs</dd>
+    <dt>Bola de rum</dt>
+    <dd>Rum ksksksksk</dd>
+</dl>
+    </form>
+
+    <p style="color: brown;">
+        Progresso : <br>
+        <progress min="0" max="10" value="8"> </progress> 
+        <small>8/10</small>
+    </p>
+    <p>
+        Febre: <br>
+        <meter min="0" max="100" low="30" high="38" value="20">
+
+        </meter>
+    </p>
+</details>
+</body>
+</html>

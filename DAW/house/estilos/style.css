@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;500;700;900&family=Noto+Sans&display=swap');
+
+body{
+background-color: #14101d;
+color: #f4eef2;
+margin: 0;
+font-family: 'Labrada', serif;
+font-family: 'Noto Sans', sans-serif;
+max-width: 100vw;
+padding: 10px;
+}
+
+.logo{
+width: 200px;
+}
+
+header{
+  margin: 10px 40px;
+}
+
+#space{
+padding-left: 200px;
+
+}
+
+.menu {
+padding-right: 100px;
+font-family: "Labrada",serif;
+font-weight: 600;
+font-size:22px;
+}
+
+a{
+color: #5a969d;
+text-decoration:none;
+}
+
+main{
+margin-top: 20px;
+margin-left: 100px;
+}
+
+h1{
+font-family: "Labrada",serif;
+font-weight: bold;
+font-weight: 800;
+font-size: 64px;
+margin: 0;
+}
+
+h2{
+line-height: 10px;
+font-family: "Labrada",serif;
+font-weight: bold;
+font-weight: 600;
+font-size: 35px;
+}
+
+p{
+line-height: 20px;
+max-width: 580px;
+font-family: "Noto Sans",sans-serif;
+}
+
+.rigth-div{
+padding: 0px 20px;
+}
+
+.left-div{
+padding: 45px 0px;
+    }
+
+.honey{
+width: 550px;
+}
+
+.hat{
+width: 60px;
+}
+
+.loja-btn{
+background-color: #995f84;
+color: #14101d;
+margin-top: -10px;
+height: 50px;
+width: 350px;
+border-radius: 20px;
+border: none;
+outline: none;
+font-size: 20px;
+font-family: "Labrada",serif;
+font-style: black;
+font-weight: 600;
+}
