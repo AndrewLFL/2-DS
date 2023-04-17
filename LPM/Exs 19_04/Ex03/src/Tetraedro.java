@@ -6,7 +6,7 @@ public class Tetraedro extends FormaTriDimensional{
 
     @Override
     public double obterArea(){
-        return (hBase*arestaBase/2)+(apotemaPiramide*arestaBase*3);
+        return (hBase*arestaBase/2)+((apotemaPiramide*arestaBase)/2*3);
     }
     @Override
     public double obterVolume(){

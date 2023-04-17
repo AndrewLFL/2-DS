@@ -7,7 +7,7 @@ public class Esfera extends FormaTriDimensional{
     }
     @Override
     public double obterVolume(){
-        return 4/3*3.14*r*r*r;
+        return (4*3.14*r*r*r)/3;
     }
 
     //m.e
