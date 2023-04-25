@@ -2,7 +2,6 @@ public class Funcionario {
     private String nome;
 
     public double getPay(){
-
         return 0;
     }
 

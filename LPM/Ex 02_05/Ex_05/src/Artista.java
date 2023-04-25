@@ -1,0 +1,42 @@
+public class Artista {
+    private int cod;
+    private String nome;
+    private String nacionalidade;
+
+    public void print()
+    {
+        System.out.println("Codigo: " + getCod() + "\nNome: " +getNome() + "\nNacionalidade: " + getNacionalidade() + "\n");
+    }
+
+    //M.E
+
+    public Artista(int cod, String nome, String nacionalidade) {
+        this.cod = cod;
+        this.nome = nome;
+        this.nacionalidade = nacionalidade;
+    }
+
+    public int getCod() {
+        return cod;
+    }
+
+    public void setCod(int cod) {
+        this.cod = cod;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNacionalidade() {
+        return nacionalidade;
+    }
+
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
+}
