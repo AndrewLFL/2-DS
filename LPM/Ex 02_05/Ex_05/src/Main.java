@@ -7,7 +7,7 @@ public class Main {
         Artista a1 = new Artista(001,"Pericles", "Brasileiro");
         Artista a2 = new Artista(002,"Adele","Britanica");
         Artista a3 = new Artista(003,"Miki Matsubara", "Japonesa");
-        Musica m1 = new Musica(004,"Superação", 3,"Desliga e vem", "Pericles");
+        Musica m1 = new Musica(004,"Seperação", 3,"Desliga e vem", "Pericles");
         Musica m2 = new Musica(005,"easy on me", 2,"30","Adele");
         Musica m3 = new Musica(006, "Stay with me", 1,"Cupid","Miki Matsubara");
 
