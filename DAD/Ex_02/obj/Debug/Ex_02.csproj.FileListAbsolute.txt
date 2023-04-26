@@ -8,3 +8,13 @@ C:\Users\aluno\source\repos\Ex_02\obj\Debug\Ex_02.csproj.GenerateResource.cache
 C:\Users\aluno\source\repos\Ex_02\obj\Debug\Ex_02.csproj.CoreCompileInputs.cache
 C:\Users\aluno\source\repos\Ex_02\obj\Debug\Ex_02.exe
 C:\Users\aluno\source\repos\Ex_02\obj\Debug\Ex_02.pdb
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\bin\Debug\Ex_02.exe.config
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\bin\Debug\Ex_02.exe
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\bin\Debug\Ex_02.pdb
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.csproj.AssemblyReference.cache
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.Form1.resources
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.Properties.Resources.resources
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.csproj.GenerateResource.cache
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.csproj.CoreCompileInputs.cache
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.exe
+C:\Users\aluno\3D Objects\2-DS\DAD\Ex_02\obj\Debug\Ex_02.pdb

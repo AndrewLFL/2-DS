@@ -55,5 +55,18 @@ namespace Ex_03
             Form2 form2 = new Form2();
             form2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach(RadioButton r in groupBox2.Controls)
+            {
+                r.Checked = false;
+            }
+            foreach (RadioButton r in groupBox1.Controls)
+            {
+                r.Checked = false;
+            }
+            label1.Text = "";
+        }
     }
 }

@@ -29,5 +29,14 @@ namespace Ex_02
             if (checkBox4.Checked)
                 label4.Text += checkBox4.Text + " ";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            label4.Text = "";
+        }
     }
 }

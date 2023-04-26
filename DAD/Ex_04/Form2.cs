@@ -12,6 +12,8 @@ namespace Ex_04
 {
     public partial class Form2 : Form
     {
+        List<Form2> lista = new List<Form2>();
+
         public Form2()
         {
             InitializeComponent();
@@ -19,9 +21,20 @@ namespace Ex_04
 
         private void novoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.BackColor = Color.Gray;
-            form2.Show();
+        if(lista.Count()<1)
+            {
+            try
+            {
+                if (Application.OpenForms["Form2"] == this)
+                {
+                    Form2 form2 = new Form2();
+                    form2.Show();            
+                    form2.BackColor = Color.Gray;
+                    lista.Add(form2);
+                }
+            }
+            catch { }
+            }
         }
     }
 }

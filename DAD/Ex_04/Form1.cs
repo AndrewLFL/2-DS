@@ -21,8 +21,15 @@ namespace Ex_04
         {
             colorDialog1.ShowDialog();
             BackColor = colorDialog1.Color;
-            Form2 form2 = new Form2();
-            form2.Show();
+            try
+            {
+                if (Application.OpenForms["Form2"] == null)
+                {
+                    Form2 form = new Form2();
+                    form.Show();
+                }
+            }
+            catch { }
         }
     }
 }
