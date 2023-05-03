@@ -1,0 +1,10 @@
+C:\Users\aluno\source\repos\Avaliação\bin\Debug\Avaliação.exe.config
+C:\Users\aluno\source\repos\Avaliação\bin\Debug\Avaliação.exe
+C:\Users\aluno\source\repos\Avaliação\bin\Debug\Avaliação.pdb
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.Form1.resources
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.Properties.Resources.resources
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.exe
+C:\Users\aluno\source\repos\Avaliação\obj\Debug\Avaliação.pdb
