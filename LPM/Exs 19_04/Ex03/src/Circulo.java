@@ -3,7 +3,7 @@ public class Circulo extends FormaBiDimensional{
 
     @Override
     public double obterArea(){
-        return 3.14*r*r;
+        return 3.14*(r*r);
     }
 
     //m.e
