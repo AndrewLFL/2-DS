@@ -1,0 +1,10 @@
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\bin\Debug\Ex_24_05.exe.config
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\bin\Debug\Ex_24_05.exe
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\bin\Debug\Ex_24_05.pdb
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.csproj.AssemblyReference.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.Form1.resources
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.Properties.Resources.resources
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.csproj.GenerateResource.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.csproj.CoreCompileInputs.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.exe
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Ex_24_05\obj\Debug\Ex_24_05.pdb

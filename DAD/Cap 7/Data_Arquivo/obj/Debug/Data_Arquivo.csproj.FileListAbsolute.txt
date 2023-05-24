@@ -1,0 +1,11 @@
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\bin\Debug\Data_Arquivo.exe.config
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\bin\Debug\Data_Arquivo.exe
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\bin\Debug\Data_Arquivo.pdb
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.csproj.AssemblyReference.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.Form1.resources
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.Form2.resources
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.Properties.Resources.resources
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.csproj.GenerateResource.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.csproj.CoreCompileInputs.cache
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.exe
+C:\Users\aluno\3D Objects\Garfood\2-DS\DAD\Cap 7\Data_Arquivo\obj\Debug\Data_Arquivo.pdb

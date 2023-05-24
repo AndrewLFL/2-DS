@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfa03ad3-ac5c-43f1-9b59-c54f02eaa8e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assalariado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comissionado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empregado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Horista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/.idea/Ex2 09_05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/Ex01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/Building.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/CarbonFootprint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/out/production/Ex01/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/CarbonFootprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex01/src/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/Ex02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Buraco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Futebol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Jogo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/JogoComBola.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/JogoDeCartas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Truco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/out/production/Ex02/Volei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Buraco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Futebol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/JogoComBola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/JogoDeCartas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Truco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2 09_05/Ex02/src/Volei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/Ex_Interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/Ferrari.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/IAutomovel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/ICarro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/IItemLoja.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/out/production/Ex_Interface/Relogio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/IAutomovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/ICarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/IItemLoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex_Interface/src/Relogio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/Ex_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/Ex_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/out/production/Ex_01/Assalariado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/out/production/Ex_01/Assalariado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/out/production/Ex_01/Comissionado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/out/production/Ex_01/Comissionado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/out/production/Ex_01/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/out/production/Ex_01/Empregado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/out/production/Ex_01/Horista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/out/production/Ex_01/Horista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/out/production/Ex_01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/out/production/Ex_01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/src/Assalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/src/Assalariado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/src/Comissionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/src/Comissionado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/src/Empregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/src/Empregado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/src/Horista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/src/Horista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/Ex_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/Ex_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/out/production/Ex_02/CartaoCredito.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/out/production/Ex_02/CartaoCredito.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/out/production/Ex_02/Cheque.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/out/production/Ex_02/Cheque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/out/production/Ex_02/Dinheiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/out/production/Ex_02/Dinheiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/out/production/Ex_02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/out/production/Ex_02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/out/production/Ex_02/TipoPagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/out/production/Ex_02/TipoPagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/src/CartaoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/src/CartaoCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/src/Cheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/src/Cheque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/src/Dinheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/src/Dinheiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex 10_05/Ex_02/src/TipoPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1 09_05/Ex_02/src/TipoPagamento.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PiWFCXsjDHaifI9Jol9TChpx4J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfa03ad3-ac5c-43f1-9b59-c54f02eaa8e6" name="Changes" comment="" />
+      <created>1683940277192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683940277192</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
