@@ -1,6 +1,7 @@
 public class Funcionario extends Pessoa implements IPessoa{
     private String numRegistro;
 
+    @Override
     public void exibir(){
         System.out.println("NOME: " + getNome() + "\nIDADE: "+ getIdade() + "\nCPF: " +
                 getCpf() + "\nCEP: " + getCep() + "\nNÚMERO DE REGISTRO: " + getNumRegistro());

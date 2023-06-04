@@ -1,66 +1,67 @@
 public class Produto {
+    private String nome;
     private String descricao;
     private double preco;
     private String codigo;
     private int quantidade;
-    private double caloria;
+
+    public void exibir(){
+        System.out.println("NOME: " + getNome() + "\nDESCRIÇÃO: "+ getDescricao() + "\nPREÇO: " +
+                getPreco() + "\nCODIGO: " + getCodigo() + "\nQUANTIDADE: " + getQuantidade());
+    }
 
     //m.e
 
-        public Produto(String descricao, double preco, String codigo, int quantidade, double caloria) {
+        public Produto(String nome, String descricao, double preco, String codigo, int quantidade) {
 
-    if(descricao.length()<200)
-    {
-    throw new LimiteDescricaoException();
-    }
-
-    else if (preco<0)
-    {
-        throw new NegativoException();
-    }
-    else if (String.valueOf(preco).matches("[A-Z]*")||String.valueOf(preco).matches("[a-z]*"))
-    {
-        throw new CaracterException();
-    }
-
-    else if (codigo.matches("[A-Z]*")||codigo.matches("[a-z]*"))
-    {
-        throw new CaracterException();
-    }
-    else if(codigo.contains("-"))
-    {
-        throw new NegativoException();
-    }
-    else if (codigo==null)
-    {
-        throw new NullPointerException();
-    }
-
-    else if (quantidade<0)
-    {
-        throw new NegativoException();
-    }
-    else if (String.valueOf(quantidade).matches("[A-Z]*")||String.valueOf(quantidade).matches("[a-z]*"))
-    {
-        throw new CaracterException();
-    }
-
-    else if (caloria<0)
-    {
-        throw new NegativoException();
-    }
-    else if (String.valueOf(caloria).matches("[A-Z]*")||String.valueOf(caloria).matches("[a-z]*"))
-    {
-        throw new CaracterException();
-    }
-    else
-    {
-        this.descricao = descricao;
-        this.preco = preco;
-        this.codigo = codigo;
-        this.quantidade = quantidade;
-        this.caloria = caloria;
-    }
+            if (nome.matches("[0-9]+"))
+            {
+                throw new NomeInvalidoException();
+            }
+            else if (nome==null)
+            {
+                throw new NullPointerException();
+            }
+            else if(descricao.length()>200)
+            {
+            throw new LimiteDescricaoException();
+            }
+            else if (preco<0)
+            {
+                throw new NegativoException();
+            }
+            else if (String.valueOf(preco).matches("[A-Z]*")||String.valueOf(preco).matches("[a-z]*"))
+            {
+                throw new CaracterException();
+            }
+            else if (codigo.matches("[A-Z]*")||codigo.matches("[a-z]*"))
+            {
+                throw new CaracterException();
+            }
+            else if(codigo.contains("-"))
+            {
+                throw new NegativoException();
+            }
+            else if (codigo==null)
+            {
+                throw new NullPointerException();
+            }
+            else if (quantidade<0)
+            {
+                throw new NegativoException();
+            }
+            else if (String.valueOf(quantidade).matches("[A-Z]*")||String.valueOf(quantidade).matches("[a-z]*"))
+            {
+                throw new CaracterException();
+            }
+            else
+            {
+                this.nome = nome;
+                this.descricao = descricao;
+                this.preco = preco;
+                this.codigo = codigo;
+                this.quantidade = quantidade;
+            }
     }
 
     public String getDescricao() {
@@ -68,7 +69,12 @@ public class Produto {
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        if(descricao.length()<200)
+        {
+            throw new LimiteDescricaoException();
+        }
+        else
+            this.descricao = descricao;
     }
 
     public double getPreco() {
@@ -76,7 +82,16 @@ public class Produto {
     }
 
     public void setPreco(double preco) {
-        this.preco = preco;
+        if (preco<0)
+        {
+            throw new NegativoException();
+        }
+        else if (String.valueOf(preco).matches("[A-Z]*")||String.valueOf(preco).matches("[a-z]*"))
+        {
+            throw new CaracterException();
+        }
+        else
+            this.preco = preco;
     }
 
     public String getCodigo() {
@@ -84,7 +99,20 @@ public class Produto {
     }
 
     public void setCodigo(String codigo) {
-        this.codigo = codigo;
+        if (codigo.matches("[A-Z]*")||codigo.matches("[a-z]*"))
+        {
+            throw new CaracterException();
+        }
+        else if(codigo.contains("-"))
+        {
+            throw new NegativoException();
+        }
+        else if (codigo==null)
+        {
+            throw new NullPointerException();
+        }
+        else
+            this.codigo = codigo;
     }
 
     public int getQuantidade() {
@@ -92,14 +120,33 @@ public class Produto {
     }
 
     public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
+        if (quantidade<0)
+        {
+            throw new NegativoException();
+        }
+        else if (String.valueOf(quantidade).matches("[A-Z]*")||String.valueOf(quantidade).matches("[a-z]*"))
+        {
+            throw new CaracterException();
+        }
+        else
+            this.quantidade = quantidade;
     }
 
-    public double getCaloria() {
-        return caloria;
+    public String getNome() {
+        return nome;
     }
 
-    public void setCaloria(double caloria) {
-        this.caloria = caloria;
+    public void setNome(String nome) {
+        if(nome==null)
+        {
+            throw new NullPointerException();
+        }
+        else if(nome.matches("[0-9]+"))
+        {
+            throw new NomeInvalidoException();
+        }
+        else
+            this.nome = nome;
     }
+
 }
