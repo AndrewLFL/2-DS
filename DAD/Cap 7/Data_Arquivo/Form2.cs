@@ -69,7 +69,7 @@ namespace Data_Arquivo
         {
             op = 1;
             pintar();
-            Label2.BackColor = Color.LightGreen;
+            label2.BackColor = Color.LightGreen;
         }
 
         private void pintar()

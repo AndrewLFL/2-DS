@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -32,13 +33,12 @@ public class Main {
                     if (op.equals("S") || op.equals("s"))
                     {
                         System.out.println("\nENCERRANDO PROGRAMA...\n");
-                        break;
                     }
                     else
                     {
                         var = 10;
-                        break;
                     }
+                    break;
                 }
                 case 1: {
                     clearBuffer(sc);
@@ -204,7 +204,16 @@ public class Main {
                     System.out.println("DIGITE A DESCRIÇÃO:");
                     descricao = sc.nextLine();
                     System.out.println("DIGITE O PREÇO:");
-                    preco = sc.nextDouble();
+                    try{
+                        preco = sc.nextDouble();
+                    }
+                    catch(InputMismatchException e )
+                    {
+                        System.out.println("Esse campo só aceita valores numéricos");
+                        var = 10;
+                        clearBuffer(sc);
+                        break;
+                    }
                     clearBuffer(sc);
                     System.out.println("DIGITE O CODIGO:");
                     codigo = sc.nextLine();
@@ -271,14 +280,13 @@ public class Main {
                             if (op.equals("N") || op.equals("n"))
                             {
                                 System.out.println("CLIENTE NÃO FOI REMOVIDO\n");
-                                break;
                             }
                             else
                             {
                                 listaCliente.remove(c);
                                 System.out.println("\nCLIENTE REMOVIDO COM SUCESSO!\n");
-                                break;
                             }
+                            break;
                         }
                     }
                     break;
@@ -307,14 +315,13 @@ public class Main {
                             if (op.equals("N") || op.equals("n"))
                             {
                                 System.out.println("FUNCIONARIO NÃO FOI REMOVIDO!\n");
-                                break;
                             }
                             else
                             {
                                 listaFuncionario.remove(f);
                                 System.out.println("\nFUNCIONARIO REMOVIDO COM SUCESSO!\n");
-                                break;
                             }
+                            break;
                         }
                     }
                     break;
@@ -344,13 +351,12 @@ public class Main {
                             {
                                 listaProduto.remove(p);
                                 System.out.println("\nPRODUTO REMOVIDO COM SUCESSO!\n");
-                                break;
                             }
                             else
                             {
                                 System.out.println("\nPRODUTO NÃO FOI REMOVIDO!\n");
-                                break;
                             }
+                            break;
                         }
                     }
                     break;
@@ -447,7 +453,7 @@ public class Main {
                             String descricao = sc.nextLine();
                             for (Produto p : listaProduto)
                             {
-                                if (p.getDescricao().toLowerCase().startsWith(descricao.toLowerCase()))
+                                if (p.getDescricao().toLowerCase().contains(descricao.toLowerCase()))
                                 {
                                     p.exibir();
                                     System.out.println();
@@ -492,6 +498,11 @@ public class Main {
                     break;
                 }
                 case 10: {
+                    if(listaCliente.isEmpty()&&listaProduto.isEmpty())
+                    {
+                        System.out.println("NÃO HÁ NENHUM PRODUTO OU CLIENTE CADASTRADO!\n");
+                        break;
+                    }
                     int op;
                     do {
                         System.out.println("***ESTATISTICAS***\n0-VOLTAR AO MENU PRINCIPAL\n\n" +
@@ -516,6 +527,11 @@ public class Main {
                             }
                             case 1:
                             {
+                                if(listaCliente.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM CLIENTE CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("CLIENTE MAIS VELHO:\n");
                                 int maiorIdade=0;
                                 for (Cliente c : listaCliente)
@@ -537,6 +553,11 @@ public class Main {
                             }
                             case 2:
                             {
+                                if(listaCliente.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM CLIENTE CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("CLIENTE MAIS NOVO:\n");
                                 int menorIdade=listaCliente.get(0).getIdade();
                                 for (Cliente c : listaCliente)
@@ -558,6 +579,11 @@ public class Main {
                             }
                             case 3:
                             {
+                                if(listaCliente.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM CLIENTE CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("QUANTIDADE DE CLIENTES MAIORES DE 60 ANOS:\n");
                                 int cont=0;
                                 for (Cliente c : listaCliente)
@@ -572,6 +598,11 @@ public class Main {
                             }
                             case 4:
                             {
+                                if(listaCliente.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM CLIENTE CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("QUANTIDADE DE CLIENTE MENORES DE 18 ANOS:\n");
                                 int cont=0;
                                 for (Cliente c : listaCliente)
@@ -586,6 +617,11 @@ public class Main {
                             }
                             case 5:
                             {
+                                if(listaCliente.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM CLIENTE CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("MEDIA DE IDADE DOS CLIENTES:\n");
                                 int soma=0;
                                 for (Cliente c : listaCliente)
@@ -597,6 +633,11 @@ public class Main {
                             }
                             case 6:
                             {
+                                if(listaProduto.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM PRODUTO CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("PRODUTO MAIS CARO:\n");
                                 double maiorPreco=0;
                                 for (Produto p : listaProduto)
@@ -618,6 +659,11 @@ public class Main {
                             }
                             case 7:
                             {
+                                if(listaProduto.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM PRODUTO CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("PRODUTO MAIS BARATO:\n");
                                 double menorPreco=listaProduto.get(0).getPreco();
                                 for (Produto p : listaProduto)
@@ -639,6 +685,11 @@ public class Main {
                             }
                             case 8:
                             {
+                                if(listaProduto.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM PRODUTO CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("MEDIA DE PREÇO DOS PRODUTOS:\n");
                                 double soma=0;
                                 for (Produto p : listaProduto)
@@ -650,6 +701,11 @@ public class Main {
                             }
                             case 9:
                             {
+                                if(listaProduto.isEmpty())
+                                {
+                                    System.out.println("NÃO HÁ NENHUM PRODUTO CADASTRADO!\n");
+                                    break;
+                                }
                                 System.out.println("PRODUTOS ACIMA DA MEDIA:\n");
                                 double soma=0;
                                 for (Produto p : listaProduto)

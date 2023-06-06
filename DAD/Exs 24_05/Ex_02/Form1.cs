@@ -47,5 +47,9 @@ namespace Ex_02
                 pictureBox5.Visible = true;
             }
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

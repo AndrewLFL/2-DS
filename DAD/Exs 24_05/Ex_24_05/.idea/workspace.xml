@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13d2aeed-c680-4c7e-aab1-513333352a0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/ClientesServisos/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/ClientesServisos/src/IPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/ClientesServisos/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/ExerTrayCatch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/exeThrow/src/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula06_Ex01/.vs/Aula06_Ex01/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula06_Ex01/.vs/Aula06_Ex01/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula06_Ex01/obj/Debug/Aula06_Ex01.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula06_Ex01/obj/Debug/Aula06_Ex01.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/.vs/Data_Arquivo/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/.vs/Data_Arquivo/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/Form2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/Form2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/bin/Debug/Data_Arquivo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/bin/Debug/Data_Arquivo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/bin/Debug/Data_Arquivo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/bin/Debug/Data_Arquivo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/Data_Arquivo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cap 7/Data_Arquivo/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ex_24_05.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ex_24_05.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LPM/Ex 30_05/Ex_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LPM/Ex 30_05/Ex_02/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QZKBLCKgkXtFbpQOA2TsU2NvSP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13d2aeed-c680-4c7e-aab1-513333352a0a" name="Changes" comment="" />
+      <created>1685555532704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685555532704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
