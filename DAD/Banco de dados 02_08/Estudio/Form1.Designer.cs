@@ -42,6 +42,7 @@ namespace Estudio
             this.lblLogin = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtLogin = new System.Windows.Forms.TextBox();
+            this.modificarAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,12 +61,12 @@ namespace Estudio
             // arquivoToolStripMenuItem
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrarAlunoToolStripMenuItem,
             this.cadastrarLoginToolStripMenuItem,
+            this.cadastrarAlunoToolStripMenuItem,
+            this.modificarAlunoToolStripMenuItem,
             this.excluirAlunoToolStripMenuItem,
             this.toolStripMenuItem1,
             this.sairToolStripMenuItem});
-            this.arquivoToolStripMenuItem.Enabled = false;
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
@@ -165,6 +166,13 @@ namespace Estudio
             this.txtLogin.Size = new System.Drawing.Size(194, 31);
             this.txtLogin.TabIndex = 0;
             // 
+            // modificarAlunoToolStripMenuItem
+            // 
+            this.modificarAlunoToolStripMenuItem.Name = "modificarAlunoToolStripMenuItem";
+            this.modificarAlunoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarAlunoToolStripMenuItem.Text = "Modificar Aluno";
+            this.modificarAlunoToolStripMenuItem.Click += new System.EventHandler(this.modificarAlunoToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,6 +208,7 @@ namespace Estudio
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem excluirAlunoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarAlunoToolStripMenuItem;
     }
 }
 

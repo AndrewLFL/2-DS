@@ -39,7 +39,6 @@ namespace Estudio
                         MessageBox.Show("Aluno excluído!");
                     }
                 }
-
             }
         }
     }

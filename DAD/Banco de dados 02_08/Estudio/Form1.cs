@@ -61,8 +61,6 @@ namespace Estudio
             {
                 groupBox1.Visible = false;
                 menuStrip1.Enabled = true;
-                cadastrarAlunoToolStripMenuItem.Enabled = true;
-                cadastrarLoginToolStripMenuItem.Enabled = true;
                 MessageBox.Show("Login realizado como restrito");
             }
         }
@@ -81,6 +79,13 @@ namespace Estudio
         private void arquivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void modificarAlunoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 modificar = new Form5();
+            modificar.MdiParent = this;
+            modificar.Show();
         }
     }
 }
