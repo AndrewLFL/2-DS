@@ -12,5 +12,4 @@ public class AlunoControl {
         AlunoDAO alDao = new AlunoDAO();
         alDao.inserirAluno(al);
     }
-    
 }
