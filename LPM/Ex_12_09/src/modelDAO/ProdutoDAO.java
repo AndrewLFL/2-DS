@@ -1,60 +1,57 @@
-package model.DAO;
+package modelDAO;
 
-import conexao.Conexao;
+import connection.Conexao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import model.Produto;
 
-import model.Aluno;
-
-public class AlunoDAO 
-
-{
+public class ProdutoDAO {
     
     Connection con = null;
     
-    public void inserirAluno(Aluno al) throws SQLException, ClassNotFoundException
+    public void incluir(Produto p) throws SQLException, ClassNotFoundException 
     {
         con = new Conexao().getConnection();
-        String sql = "Insert into alunoJava (ra,nome) values (?, ?)";
+        String sql = "Insert into produtoJava (id,nome) values (?, ?)";
         PreparedStatement stmt = con.prepareStatement(sql);
-        stmt.setInt(1, al.getRa());
-        stmt.setString(2, al.getNome());
+        stmt.setString(1, p.getId());
+        stmt.setString(2, p.getNome());
+        stmt.execute();
+        stmt.close();
+        con.close();
+    }
+
+    public void excluir(String id) throws SQLException, ClassNotFoundException 
+    {
+        con = new Conexao().getConnection();
+        String sql = "DELETE FROM produtoJava WHERE id = ?";
+        PreparedStatement stmt = con.prepareStatement(sql);
+        stmt.setString(1, id);
         stmt.execute();
         stmt.close();
         con.close();
     }
     
-    public void excluir(int ra) throws SQLException, ClassNotFoundException 
-    {
-        con = new Conexao().getConnection();
-        String sql = "DELETE FROM alunoJava WHERE ra = ?";
-        PreparedStatement stmt = con.prepareStatement(sql);
-        stmt.setInt(1, ra);
-        stmt.execute();
-        stmt.close();
-        con.close();
-    }
-    
-    public ArrayList<Aluno> buscarAlunos() throws SQLException, ClassNotFoundException
+    public ArrayList<Produto> buscar() throws SQLException, ClassNotFoundException
     {
         ResultSet rs;
-        ArrayList<Aluno> lista = new ArrayList<Aluno>(); 
+        ArrayList<Produto> lista = new ArrayList<Produto>(); 
         con = new Conexao().getConnection();  
-        String sql = "SELECT * FROM alunoJava";
+        String sql = "SELECT * FROM produtoJava";
         PreparedStatement stmt = con.prepareStatement(sql);       
         rs = stmt.executeQuery();
         while(rs.next())
         {
-        int ra = rs.getInt("ra");
+        String id = rs.getString("id");
         String nome = rs.getString("nome");
-        Aluno al = new Aluno(ra,nome);
-        lista.add(al);
+        Produto p = new Produto(id,nome);
+        lista.add(p);
         }
         stmt.close();
         con.close();
         return lista;
-    }
+    }    
 }
