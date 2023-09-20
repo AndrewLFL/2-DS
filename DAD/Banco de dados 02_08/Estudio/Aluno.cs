@@ -23,14 +23,16 @@ namespace Estudio
         private byte[] Foto;
         private bool Ativo;
 
-        public void modificarAluno()
+
+        public bool atualizarAluno()
         {
+            bool exc = false;
             try
             {
-                //Falta terminar isso !!!!!!!
                 DAO_Conexao.con.Open();
-                MySqlCommand exclui = new MySqlCommand("update Estudio_Aluno set CPFAluno, nomeAluno, ruaAluno, numeroAluno, bairroAluno, complementoAluno, CEPAluno, cidadeAluno, estadoAluno, telefoneAluno, emailAluno where CPFALuno = '" + CPF + "'", DAO_Conexao.con);
-                exclui.ExecuteNonQuery();
+                MySqlCommand atualiza = new MySqlCommand("update Estudio_Aluno set nomeAluno = '" + Nome + "', ruaAluno = '" + Rua + "', numeroAluno = '" + Numero + "', bairroAluno = '" + Bairro + "', complementoAluno ='" + Complemento + "',CEPAluno='" + CEP + "', cidadeAluno='" + Cidade + "', estadoAluno='" + Estado + "', telefoneAluno = '" + Telefone + "', emailAluno = '" + Email + "' where CPFAluno = '" + CPF + "'", DAO_Conexao.con);
+                atualiza.ExecuteNonQuery();
+                exc = true;
             }
             catch (Exception ex)
             {
@@ -40,7 +42,23 @@ namespace Estudio
             {
                 DAO_Conexao.con.Close();
             }
+            return exc;
+        }
 
+        public MySqlDataReader consultarAluno01()
+        {
+            MySqlDataReader resultado = null;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand consulta = new MySqlCommand("SELECT * FROM Estudio_Aluno where CPFAluno = '" + CPF + "'", DAO_Conexao.con);
+                resultado = consulta.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            return resultado;
         }
 
         public bool excluirAluno()
@@ -64,16 +82,6 @@ namespace Estudio
             }
             return exc;
         }
-
-        /*
-        public bool verificaCPF() 
-        {
-            int soma, resto, cont = 0;
-            soma = 0;
-            CPF = CPF.Trim();
-            CPF = CPF.Replace(".", "");
-            CPF = CPF.Replace("-", "");
-        }*/
 
         public bool cadastrarAluno()
         {

@@ -87,5 +87,26 @@ namespace Estudio
             modificar.MdiParent = this;
             modificar.Show();
         }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form6 cadastrarModalidade = new Form6();
+            cadastrarModalidade.MdiParent = this;
+            cadastrarModalidade.Show();
+        }
+
+        private void tsmiExcluirModalidade_Click(object sender, EventArgs e)
+        {
+            Form7 excluirModalidade = new Form7();
+            excluirModalidade.MdiParent = this;
+            excluirModalidade.Show();
+        }
+
+        private void tsmiAtualizarModalidade_Click(object sender, EventArgs e)
+        {
+            Form8 atualizarModalidade = new Form8();
+            atualizarModalidade.MdiParent = this;
+            atualizarModalidade.Show();
+        }
     }
 }

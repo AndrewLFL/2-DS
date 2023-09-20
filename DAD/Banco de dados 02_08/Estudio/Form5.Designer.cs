@@ -241,6 +241,8 @@ namespace Estudio
             this.mtxtCPF.Name = "mtxtCPF";
             this.mtxtCPF.Size = new System.Drawing.Size(135, 26);
             this.mtxtCPF.TabIndex = 8;
+            this.mtxtCPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtCPF_MaskInputRejected);
+            this.mtxtCPF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mtxtCPF_KeyPress);
             // 
             // lblEmail
             // 
@@ -331,7 +333,7 @@ namespace Estudio
             this.Controls.Add(this.picFoto);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Modifica Alunos";
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

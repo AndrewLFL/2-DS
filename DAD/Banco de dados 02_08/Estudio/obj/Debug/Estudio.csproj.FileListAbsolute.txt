@@ -46,3 +46,7 @@ C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\bin\Deb
 C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\bin\Debug\MySql.Data.xml
 C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\obj\Debug\Estudio.Form5.resources
+C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\obj\Debug\Estudio.Form6.resources
+C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\obj\Debug\Estudio.Form7.resources
+C:\Users\aluno\3D Objects\TimeSkip\2-DS\DAD\Banco de dados 02_08\Estudio\obj\Debug\Estudio.Form8.resources
