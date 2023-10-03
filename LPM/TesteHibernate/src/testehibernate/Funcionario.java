@@ -20,7 +20,6 @@ public class Funcionario
     private double salario;
 
     //m.e
-
     public Funcionario(int id, String nome, double salario) {
         this.id = id;
         this.nome = nome;

@@ -16,7 +16,6 @@ public class Departamento {
     private String nome;
 
     //m.e
-
     public Departamento(int cod, String nome) {
         this.cod = cod;
         this.nome = nome;
