@@ -50,5 +50,8 @@ Contributor(s):
     <property name="hbm2ddl.auto">create</property>
     <mapping class="testehibernate.Aluno"></mapping>
     <mapping class="testehibernate.Disciplina"></mapping>
+    <mapping class="testehibernate.Professor"></mapping>
+    <mapping class="testehibernate.Departamento"></mapping>
+    <mapping class="testehibernate.Funcionario"></mapping>
   </session-factory>
 </hibernate-configuration>
