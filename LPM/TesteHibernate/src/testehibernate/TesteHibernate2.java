@@ -26,8 +26,10 @@ public class TesteHibernate2 {
             Disciplina disc1 = new Disciplina (1,"java", 80);
             Disciplina disc2 = new Disciplina (2, "estrutura de dados", 40);
             Disciplina disc3 = new Disciplina (3, "banco de dados", 40);
-        
-            //cria os alunos
+            Disciplina disc4 = new Disciplina (4, "matematica", 80);
+
+
+        //cria os alunos
             Aluno al1 =new Aluno(1234,"Sandro");
             Aluno al2 =new Aluno(5678,"Andrew");
             Aluno al3 =new Aluno(9012,"Maria");
@@ -37,10 +39,14 @@ public class TesteHibernate2 {
             Professor p2 = new Professor(2,"Helo",2000);
             Professor p3 = new Professor(3,"Xands",100000);
 
-            List<Disciplina> listaDisc = new ArrayList<Disciplina>();
-            listaDisc.add(disc1);
-            listaDisc.add(disc2);
-            p1.setListaDisc(listaDisc);
+            List<Disciplina> listaTania = new ArrayList<Disciplina>();
+            listaTania.add(disc1);
+            listaTania.add(disc2);
+            p1.setListaDisc(listaTania);
+
+            List<Disciplina> listaXands = new ArrayList<Disciplina>();
+            listaXands.add(disc4);
+            p3.setListaDisc(listaXands);
 
             //cria func
             Funcionario f1 = new Funcionario(1,"Vera",8000);
