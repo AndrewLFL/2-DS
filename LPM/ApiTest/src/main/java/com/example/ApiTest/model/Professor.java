@@ -6,24 +6,24 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table (name = "ApiAluno")
-public class Aluno {
+@Table(name = "ProfessorJava")
+public class Professor {
 
     @Id
-    private int ra;
+    private int id;
 
     @Column
     private String nome;
 
     @Column
-    private double altura;
+    private double salario;
 
-    public int getRa() {
-        return ra;
+    public int getId() {
+        return id;
     }
 
-    public void setRa(int ra) {
-        this.ra = ra;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -34,11 +34,11 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public double getAltura() {
-        return altura;
+    public double getSalario() {
+        return salario;
     }
 
-    public void setAltura(double altura) {
-        this.altura = altura;
+    public void setSalario(double salario) {
+        this.salario = salario;
     }
 }
