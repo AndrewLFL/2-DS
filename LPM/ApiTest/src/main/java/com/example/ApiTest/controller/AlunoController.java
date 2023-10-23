@@ -28,7 +28,8 @@ public class AlunoController {
     }
 
     @GetMapping("/buscar/nome/{nome}")
-    public List<Aluno> buscarPorNome(@PathVariable(value = "nome")String nome){
+    public List<Aluno> buscarPorNome(@PathVariable(value = "nome")String nome)
+    {
         return alRepo.findByNome(nome);
     }
 
@@ -48,5 +49,17 @@ public class AlunoController {
     public void deleteAluno(@RequestBody Aluno a)
     {
         alRepo.delete(a);
+    }
+
+    @DeleteMapping("/delete/ra/{ra}")
+    public void deletePorId(@PathVariable("ra") int ra)
+    {
+        alRepo.deleteById(ra);
+    }
+
+    @PutMapping("/atualizar")
+    public void atualizarAluno(@RequestBody Aluno al)
+    {
+        alRepo.save(al);
     }
 }

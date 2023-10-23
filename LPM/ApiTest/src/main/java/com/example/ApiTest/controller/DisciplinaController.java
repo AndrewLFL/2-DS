@@ -1,12 +1,10 @@
 package com.example.ApiTest.controller;
 
 import com.example.ApiTest.model.Disciplina;
+import com.example.ApiTest.model.Professor;
 import com.example.ApiTest.repository.DisciplinaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -43,6 +41,30 @@ public class DisciplinaController
     @GetMapping("/buscar/sigla/{sigla}")
     public List<Disciplina> buscarPorSigla(@PathVariable(value = "sigla")String sigla){
         return dcRepo.findBySigla(sigla);
+    }
+
+    @PostMapping("/inserir")
+    public void inserirDisciplina(@RequestBody Disciplina d)
+    {
+        dcRepo.save(d);
+    }
+
+    @DeleteMapping("/delete")
+    public void deleteDisciplina(@RequestBody Disciplina d)
+    {
+        dcRepo.delete(d);
+    }
+
+    @DeleteMapping("/delete/codigo/{codigo}")
+    public void deletePorCodigo(@PathVariable("codigo") int codigo)
+    {
+        dcRepo.deleteById(codigo);
+    }
+
+    @PutMapping("/atualizar")
+    public void atualizarDisciplina(@RequestBody Disciplina d)
+    {
+        dcRepo.save(d);
     }
 
 }

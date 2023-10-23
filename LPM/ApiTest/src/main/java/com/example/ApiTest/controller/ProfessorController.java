@@ -51,4 +51,15 @@ public class ProfessorController {
         prRepo.delete(p);
     }
 
+    @DeleteMapping("/delete/id/{id}")
+    public void deletePorId(@PathVariable("id") int id)
+    {
+        prRepo.deleteById(id);
+    }
+
+    @PutMapping("/atualizar")
+    public void atualizarProfessor(@RequestBody Professor p)
+    {
+        prRepo.save(p);
+    }
 }
