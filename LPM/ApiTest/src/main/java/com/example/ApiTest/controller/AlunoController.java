@@ -62,4 +62,34 @@ public class AlunoController {
     {
         alRepo.save(al);
     }
+
+    @GetMapping("/buscar/parteNome/{parteNome}")
+    public List<Aluno> buscarPorParteNome(@PathVariable ("parteNome") String parteNome)
+    {
+        return alRepo.findByParteNome(parteNome);
+    }
+
+    @GetMapping("/buscar/raMaiorQue/{ra}")
+    public List<Aluno> buscarRaMaiorQue(@PathVariable("ra") int ra)
+    {
+        return alRepo.findByRaMaiorQue(ra);
+    }
+
+    @GetMapping("/buscar/alturaMenorQue/{altura}")
+    public List<Aluno> buscarAlturaMenorQue(@PathVariable("altura") double altura)
+    {
+        return alRepo.findByAlturaMenorQue(altura);
+    }
+
+    @GetMapping("/buscar/nome/{nome}/ra/{ra}")
+    public  List<Aluno> buscarNomeRa(@PathVariable("nome") String nome , @PathVariable("ra") int ra)
+    {
+        return  alRepo.findByNomeRa(nome,ra);
+    }
+
+    @GetMapping("/buscar/parteNome/{parteNome}/alturaMenorQue/{altura}")
+    public List<Aluno> buscarParteNomeAlturaMenorQue(@PathVariable("parteNome") String parteNome , @PathVariable("altura") double altura)
+    {
+        return  alRepo.findByParteNomeAlturaMenorQue(parteNome, altura);
+    }
 }
